@@ -1,0 +1,55 @@
+@font-face{
+    font-family: "Champagne Royale";
+    src: url(Champagne Royale.ttf);}
+
+/* @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"); */
+
+body{
+    min-height: 100vh;
+    position: relative;
+    padding-bottom: 90px;
+}
+
+footer{
+    position: absolute;
+    /* bottom: 0; */
+    width: 100%;
+}
+
+h1{
+    font-family: "Champagne Royale";
+}
+
+.img{
+    width: 100%;
+    border: 2px green solid;
+}
+
+.img:hover{
+    width: 100%;
+    border: 2px blue solid;
+}
+
+#h1{
+
+}
+
+.lenta{
+    width: fit-content;
+}
+
+.banner-img{
+    height: 35vh;
+    object-fit: cover;
+}
+
+.width-fit-content{
+    width: fit-content;
+}
+
+@media(max-width: 1024px){
+    .img{
+        width: 50%;
+        border: 2px green solid;
+    }
+}
